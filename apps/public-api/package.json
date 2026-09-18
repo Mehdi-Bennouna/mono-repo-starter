@@ -1,0 +1,21 @@
+{
+	"name": "@repo/public-api",
+	"type": "module",
+	"scripts": {
+		"build": "tsdown",
+		"format": "prettier --write .",
+		"lint": "eslint .",
+		"start": "node dist/index.mjs",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@repo/eslint-config": "workspace:*",
+		"@repo/lint-staged-config": "workspace:*",
+		"@repo/tsdown-config": "workspace:*",
+		"@repo/typescript-config": "workspace:*",
+		"@types/node": "catalog:",
+		"eslint": "catalog:",
+		"tsdown": "catalog:",
+		"typescript": "catalog:"
+	}
+}
