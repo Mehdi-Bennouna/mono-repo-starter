@@ -1,0 +1,7 @@
+{
+	"name": "@repo/tsdown-config",
+	"devDependencies": {
+		"@repo/typescript-config": "workspace:*",
+		"tsdown": "catalog:"
+	}
+}
