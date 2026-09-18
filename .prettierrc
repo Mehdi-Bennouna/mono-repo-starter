@@ -21,6 +21,5 @@
 		"^\\.(/index)?$"
 	],
 	"importOrderTypeScriptVersion": "6.0.0",
-	"importOrderCaseSensitive": false,
-	"importOrderMergeDuplicateImports": false
+	"importOrderCaseSensitive": false
 }
