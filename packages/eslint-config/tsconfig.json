@@ -1,4 +1,4 @@
 {
 	"extends": "@repo/typescript-config/tsconfig.bundler.json",
-	"include": ["tsdown.config.ts", "eslint.config.ts"]
+	"include": ["eslint.base.ts", "eslint.config.js"]
 }

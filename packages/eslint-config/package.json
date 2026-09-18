@@ -1,0 +1,25 @@
+{
+	"name": "@repo/eslint-config",
+	"type": "module",
+	"exports": {
+		"./eslint.config.base": "./eslint.base.ts"
+	},
+	"scripts": {
+		"format": "prettier --write .",
+		"lint": "eslint .",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9",
+		"@repo/typescript-config": "workspace:*",
+		"@stylistic/eslint-plugin": "^5.10.0",
+		"@types/node": "catalog:",
+		"@typescript-eslint/parser": "^8.67.0",
+		"eslint": "catalog:",
+		"eslint-import-resolver-typescript": "^4.4.5",
+		"eslint-plugin-import": "^2.32.0",
+		"eslint-plugin-unicorn": "^65.0.1",
+		"typescript": "catalog:",
+		"typescript-eslint": "^8.62.1"
+	}
+}

@@ -1,7 +1,9 @@
 {
 	"name": "@repo/tsdown-config",
 	"devDependencies": {
+		"@repo/eslint-config": "workspace:*",
 		"@repo/typescript-config": "workspace:*",
+		"eslint": "catalog:",
 		"tsdown": "catalog:"
 	}
 }
