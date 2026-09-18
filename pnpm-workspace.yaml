@@ -1,3 +1,7 @@
 packages:
     - "apps/*"
     - "packages/*"
+
+catalog:
+    "@types/node": "^24"
+    "typescript": "^6"
