@@ -18,5 +18,8 @@
 		"eslint": "catalog:",
 		"tsdown": "catalog:",
 		"typescript": "catalog:"
+	},
+	"dependencies": {
+		"arktype": "^2.2.3"
 	}
 }
