@@ -196,6 +196,9 @@ importers:
       husky:
         specifier: ^9.1.7
         version: 9.1.7
+      lint-staged:
+        specifier: ^17.3.0
+        version: 17.5.1
       prettier:
         specifier: ^3.9.6
         version: 3.9.7
@@ -235,6 +238,9 @@ importers:
       '@fastify/under-pressure':
         specifier: ^9.2.0
         version: 9.2.0
+      '@repo/logger':
+        specifier: workspace:*
+        version: link:../../packages/logger
       '@repo/otel':
         specifier: workspace:*
         version: link:../../packages/otel
@@ -257,9 +263,6 @@ importers:
       '@repo/lint-staged-config':
         specifier: workspace:*
         version: link:../../packages/lint-staged-config
-      '@repo/logger':
-        specifier: workspace:*
-        version: link:../../packages/logger
       '@repo/tsdown-config':
         specifier: workspace:*
         version: link:../../packages/tsdown-config
