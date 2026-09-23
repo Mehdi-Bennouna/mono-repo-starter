@@ -1,0 +1,10 @@
+name: repo
+
+services:
+    otel-desktop-viewer:
+        container_name: "otel-desktop-viewer"
+        image: ghcr.io/ctrlspice/otel-desktop-viewer:latest
+        ports:
+            - "8000:8000"
+            - "4317:4317"
+            - "4318:4318"
